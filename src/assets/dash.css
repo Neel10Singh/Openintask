@@ -1,0 +1,32 @@
+.sidehidden {
+  transform: translateX(-150%);
+}
+.custom-tooltip {
+  background-color: rgba(255, 255, 255, 0.358);
+  border-radius: 0.5rem;
+  border: solid 1px gray;
+  padding: 2rem;
+}
+.activemenu {
+  border-color: rgb(37 99 235) !important;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  box-shadow: 1px 1px 5px gray inset, -1px -1px 5px gray inset;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
