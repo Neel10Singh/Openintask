@@ -235,7 +235,7 @@ function Dash({ user }) {
             <button>
               <i className='fa fa-bell-o !text-3xl'></i>
             </button>
-            <div className='  h-9 w-9 rounded-full'>
+            <div className='  h-9 w-9 rounded-full overflow-hidden'>
               <img src={user} className='h-full w-full'></img>
             </div>
           </div>
